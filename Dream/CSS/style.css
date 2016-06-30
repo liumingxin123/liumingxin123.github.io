@@ -1,0 +1,70 @@
+*{
+    font-family: 'Helvetica Neue', 'STHeiti','Microsoft YaHei', Helvetica,Arial,sans-serif;
+    
+    padding: 0px;
+}
+
+body{
+    
+    background-color:#f5f5f5 ;
+}
+
+.banner{
+    width:100%;
+    height: 600px;
+    background-color: lightgery;
+    background-image: url("../image/onepage.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    margin-top:-193px;
+}
+
+
+.banner_left{
+    /*float: left;*/
+    width: 50%;
+    height: 360px;
+    margin-top: 210px;
+    /*background-color: red;*/
+}
+.banner_left p{
+    padding-top: 135px;
+    padding-left: 10px;
+    letter-spacing: 4px;
+    line-height: 30px;
+    color: #804000;
+    font-size: 18px;
+    font-weight: bold;
+}
+.ph1{
+	padding-top:100px;
+	padding-left:180px;
+	color: #804000;
+    font-weight: bold;
+}
+.banner_right{
+    float: right;
+    width: 50%;
+    height: 360px;
+    margin-top: -380px;
+    /*background-color: blue;*/
+}
+.banner_right p{
+    padding-top: 110px;
+    padding-right:10px;
+    letter-spacing: 4px;
+    line-height: 30px;
+    color: #306108;
+    font-size: 18px;
+    text-align: right;
+    font-weight: bold;
+}
+.ph2{
+	padding-top:110px;
+	padding-left:425px;
+	color: #306108;
+    font-weight: bold;
+}
+.pclass{
+	margin:6px 13px;
+}

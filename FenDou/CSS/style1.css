@@ -1,0 +1,62 @@
+﻿.nav {
+	width:560px;
+	height:  95px;
+    margin:0px 26%;
+    
+}
+/*为nav清除浮动*/
+.nav：after {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	content: "";
+}
+
+.nav .item {
+	width: 110px;
+	height: 94px;
+	margin-right: 2px;
+	float: left;
+	perspective: 4000px;
+}
+
+.nav .item a {
+	display: block;
+	height: 94px;
+	text-decoration: none;
+	transition: all .5s;
+	transform-style: preserve-3d;
+}
+
+.nav .item a p {
+	height: 94px;
+	margin: 0px;
+	line-height:110px;
+	color: snow;
+	text-align: center;
+	font-size: 19px;
+	font-family: "Microsoft Yahei";
+	border-radius: 2px;
+	transition: all .5s;
+}
+
+.nav .item a p:first-child {
+	background-color:black;
+	transform: translateZ(50px);
+}
+
+.nav .item a p:last-child {
+	background-color: #a08784;
+	transform: translateZ(50px) rotateX(-90deg);
+	margin-top: -47px;
+}
+
+.nav .item a:hover {
+	transform: rotateX(90deg);
+}
+
+.nav .item a:hover p:last-child {
+	margin-top: 0px;
+	transform: translateZ(0) rotateX(-90deg);
+}
+

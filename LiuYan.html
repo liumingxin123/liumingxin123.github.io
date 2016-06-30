@@ -1,0 +1,154 @@
+﻿
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>留言页面</title>
+<link  type="text/css" href="FenDou/CSS/style.css" rel="stylesheet">
+<link  type="text/css" href="FenDou/CSS/style_liu.css" rel="stylesheet">
+ <script type="text/javascript">
+    function clearContent(txt)
+    {
+        txt.value="";
+    }
+    function clearContent(txt)
+    {
+        txt.value="";
+        document.getElementById("tishi1").innerHTML="请输入一个 正在使用的用户名";
+    }
+   
+    function clearContentemail(txt)
+    {
+        txt.value="";
+        document.getElementById("tishi2").innerHTML="请输入你常用的邮箱";
+    }
+   
+    function clearContentliuyan(txt)
+    {
+        txt.value="";
+        document.getElementById("tishi3").innerHTML="请输入你宝贵的意见  或者你想对我说的话";
+    }
+     </script>
+</head>
+<body>
+      <div id="header">
+		<div id="div1">
+			<a id="a1" href="index1.html" title="HOME"><img id="imghome"
+				src="images/home.png"></a>
+		</div>
+         <div class="nav">
+				<div class="item">
+					<a href="shipin/shipin.html">
+						<p>关于我</p>
+						<p>请继续浏览</p>
+					</a>
+				</div>
+				<div class="item">
+					<a href="NuLi.html">
+						<p>努力</p>
+						<p>COME ON</p>
+					</a>
+				</div>
+				<div class="item">
+					<a href="个人简介/我是420请点击我.html">
+						<p>生活</p>
+						<p>丰富多彩奥</p>
+					</a>
+				</div>
+				<div class="item">
+					<a href="FenDou.html">
+						<p>奋斗</p>
+						<p>还要继续奥</p>
+					</a>
+				</div>
+				<div class="item">
+					<a href="Dream.html">
+						<p>梦想</p>
+						<p>Dream</p>
+					</a>
+				</div>
+			</div>
+		<div id="div2">
+			<a class="a2" href="#" title="通过微信联系我"><img id="imgweixin"
+				src="images/weixin.png"> </a> <a class="a2" href="#"
+				title="通过QQ联系我"><img id="imgqq" src="images/qq.png"></a> <a
+				class="a2" href="#" title="通过微博联系我"><img id="imgweibo"
+				src="images/weibo.png"></a> <a class="a2" href="#" title="通过电话联系我"><img
+				id="imgtel" src="images/tel.png"></a>
+		</div>
+
+	</div>
+
+   
+      <div class="container">
+      <div class="Zhuce_container">
+            <div class="zhuce-config">
+                <img src="images/login_logo11.png">
+                 <p style="margin-left: 15px;">谢谢你的留言</p>
+                  <form  id="form1" name="form1"  action="/TPersonal/AddMessage" method="post">
+                      <table>
+                          <tr >
+                              <td>
+                                  <!--用户名 -->
+                                  <input class="zhuce_user" type="text" id="Zuser" name="name" value="用户名" onclick="clearContent(this)" >
+                              </td>
+                              <td id="tishi1" class="zhucetishi"></td>
+                          </tr>
+                          <tr >
+                              <td>
+                                  <!--邮箱 -->
+                                  <input class="zhuce_user" id="Zemail" type="text" name="email" value="邮箱" onclick="clearContentemail(this)" >
+                              </td>
+                              <td id="tishi2" class="emailtishi"></td>
+                          </tr>
+                          
+                          <tr >
+                              <td>
+                                  <!--留言 -->
+                                  <textarea  class="zhuce_user1"  rows="4" name="content"   onclick="clearContentliuyan(this)" ></textarea>
+                              </td>
+                              <td id="tishi3" class="emailtishi"></td>
+                          </tr>
+                          <tr>
+                              <!--我已经同意 -->
+                              <td class="zhuce_remeber1"><input class="zhuce_remeber" type="checkbox" name="Zremeber" checked>我已经同意
+                                  <a id="zhuce_xieyi" href="index1.html"  >留言协议</a>
+                              </td>
+                              <td><a id="zhuce_get" href="index1.html"  >非常感谢你的留言</a></td>
+                          </tr>
+                          <tr>
+                              <td><input type="reset" value="重置信息" class="reset" "></td>
+                              <td><input type="submit" value="提交留言" class="Zsubmint"  ></td>
+                          </tr>
+
+                      </table>
+                  </form>
+            </div>
+     </div>
+      
+      
+      
+      
+      
+      
+      </div>
+   
+    
+	<div id="di6">
+			<div id="div621">
+				<marquee direction="right">
+					<h3 id="d621">梅花香自苦寒来</h3>
+				</marquee>
+			</div>
+			<div id="div62">
+				<h3 id="d61">I have nothing to offer but blood , toil tears and
+					sweat．</h3>
+				<h4 id="d62">----Winston Churchill</h4>
+			</div>
+			<div id="div623">
+				<marquee direction="right">
+					<h3 id="d623">宝剑锋从磨砺出</h3>
+				</marquee>
+			</div>
+		</div>
+</body>
+</html>

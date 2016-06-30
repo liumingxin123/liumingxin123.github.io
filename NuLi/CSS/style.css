@@ -1,0 +1,45 @@
+.container-img{
+	margin-top:15px;
+	
+}
+#container{
+    position: relative;
+    margin-left:80px;
+}
+.box{
+    padding: 5px;
+    float: left;
+}
+.box_image{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    box-shadow: 0 0 5px #cccccc;
+}
+.box_image img{
+    width: 150px;
+    height: auto;
+}
+
+.btn{
+     width: 30px;
+     height: 70px;
+     position: fixed;
+     bottom: 30px;
+     background:grey;
+     left: 50%;
+     margin-left: 610px;
+     border-radius: 5px;
+     text-decoration:none;
+     color:white;
+     
+ }
+.btn  .btn-span{
+	 font-size:14px;
+	 padding-left:8px;
+	 width: 25px;
+	 
+}
+.btn:hover{
+    background: darkgrey;
+}
