@@ -204,7 +204,10 @@ body {
 }
 .pcan{
     margin-top:30px;
-	margin-left:5px;
-	width:46%;
+    margin-left:6px;
+    width:46%;
+    height: 500px;
+    border-radius: 5px;
+    background-color: whitesmoke;
 	
 }  
